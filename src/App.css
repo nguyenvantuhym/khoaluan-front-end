@@ -8,6 +8,18 @@
   pointer-events: none;
 }
 
+.line {
+  bottom: 0;
+  height: 5px;
+  margin-bottom: auto;
+  margin-left: 10px;
+  margin-top: auto;
+  position: absolute;
+  top: 0;
+  background: url(https://phongnhakebang.vn/images/dot.png../../images/dot.png) repeat-x;
+  width: 100%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
